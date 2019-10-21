@@ -1,0 +1,245 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Matching the sentences and extracting the different words",
+        "description": "",
+        "id": "matching-the-sentences;matching-the-sentences-and-extracting-the-different-words;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1554028,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"I am an automation Script\" String as First Sentence",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I am an automation Script\"",
+                  "offset": 6
+                }
+              ],
+              "location": "SentenceCheck.enter_String_as_First_Sentence(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132994,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter \"Automation is best practice\" String as Second Sentence",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation is best practice\"",
+                  "offset": 6
+                }
+              ],
+              "location": "SentenceCheck.enter_String_as_Second_Sentence(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2302391,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Extracting the different words",
+            "match": {
+              "location": "SentenceCheck.extracting_the_different_words()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Matching the sentences and extracting the different words",
+        "description": "",
+        "id": "matching-the-sentences;matching-the-sentences-and-extracting-the-different-words;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 210824,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"This is \u0026 String 1 test\" String as First Sentence",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is \u0026 String 1 test\"",
+                  "offset": 6
+                }
+              ],
+              "location": "SentenceCheck.enter_String_as_First_Sentence(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133422,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter \"This is String 2 *\" String as Second Sentence",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is String 2 *\"",
+                  "offset": 6
+                }
+              ],
+              "location": "SentenceCheck.enter_String_as_Second_Sentence(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141547,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Extracting the different words",
+            "match": {
+              "location": "SentenceCheck.extracting_the_different_words()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Matching the sentences and extracting the different words",
+        "description": "",
+        "id": "matching-the-sentences;matching-the-sentences-and-extracting-the-different-words;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 229640,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"This is String1 %5\" String as First Sentence",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is String1 %5\"",
+                  "offset": 6
+                }
+              ],
+              "location": "SentenceCheck.enter_String_as_First_Sentence(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter \"This is String2\" String as Second Sentence",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"This is String2\"",
+                  "offset": 6
+                }
+              ],
+              "location": "SentenceCheck.enter_String_as_Second_Sentence(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150528,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Extracting the different words",
+            "match": {
+              "location": "SentenceCheck.extracting_the_different_words()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Matching the sentences and extracting the different words",
+        "description": "",
+        "id": "matching-the-sentences;matching-the-sentences-and-extracting-the-different-words;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 184311,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter \"Java@11 is good!\" String as First Sentence",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java@11 is good!\"",
+                  "offset": 6
+                }
+              ],
+              "location": "SentenceCheck.enter_String_as_First_Sentence(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116317,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter \"Java@8 is still in market\" String as Second Sentence",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Java@8 is still in market\"",
+                  "offset": 6
+                }
+              ],
+              "location": "SentenceCheck.enter_String_as_Second_Sentence(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132567,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Extracting the different words",
+            "match": {
+              "location": "SentenceCheck.extracting_the_different_words()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Matching the sentences",
+    "description": "",
+    "id": "matching-the-sentences",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/SentenceCheck.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.008969">
+    <testcase classname="Matching the sentences" name="Matching the sentences and extracting the different words" time="0.007351">
+        <system-out>
+            <![CDATA[Given Enter "I am an automation Script" String as First Sentence............passed
+Given Enter "Automation is best practice" String as Second Sentence.........passed
+Then Extracting the different words.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Matching the sentences" name="Matching the sentences and extracting the different words 2" time="0.000547">
+        <system-out>
+            <![CDATA[Given Enter "This is & String 1 test" String as First Sentence..............passed
+Given Enter "This is String 2 *" String as Second Sentence..................passed
+Then Extracting the different words.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Matching the sentences" name="Matching the sentences and extracting the different words 3" time="0.000583">
+        <system-out>
+            <![CDATA[Given Enter "This is String1 %5" String as First Sentence...................passed
+Given Enter "This is String2" String as Second Sentence.....................passed
+Then Extracting the different words.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Matching the sentences" name="Matching the sentences and extracting the different words 4" time="0.000488">
+        <system-out>
+            <![CDATA[Given Enter "Java@11 is good!" String as First Sentence.....................passed
+Given Enter "Java@8 is still in market" String as Second Sentence...........passed
+Then Extracting the different words.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
